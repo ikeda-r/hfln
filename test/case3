@@ -1,0 +1,51 @@
+init {} {(m @Y : N -> N -> P. \ @n : N. \ @m : N. @n = @m \/ @Y (S @n) @m) Z $t} {$t : N}
+nat $t
+mul 0
+funl 0
+orl 0
+eql 0 {r0#1} {}
+mur 0
+funr 0
+funr 0
+orr 0
+eqr 1
+subst {l0#1} $t'
+mul 0
+funl 0
+orl 0
+switch 5
+subst {l0#1} $d
+subst {l0#1} $t'
+backlink 3 1 {0 0} {0 0}
+andl 0
+eql 1 {r0#1} {}
+mur 0
+funr 0
+funr 0
+orr 0
+wkr 1
+cut {(m @Y : N -> N -> P. \ @n : N. \ @m : N. @n = @m \/ @Y (S @n) @m) Z $t'} {}
+switch 7
+wkr 2
+subst {l2#1, r3#1} $t
+backlink 1 1 {2 0} {3 0}
+wkl 2
+subst {l3#01, r2#010} $z
+mul 3
+funl 3
+funl 3
+orl 3
+eql 3 {r2#010} {}
+mur 2
+funr 2
+funr 2
+orr 2
+eqr 3
+mur 2
+funr 2
+funr 2
+orr 2
+wkr 3
+subst {l3#01, r4#010} $d
+subst {l3#01, r4#010} $z
+backlink 6 2 {3 3} {4 2}

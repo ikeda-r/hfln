@@ -1,0 +1,8 @@
+init {(m @X : N -> P. \ @y : N. S @y = Z \/ @X (S @y)) $s} {} {$s : N}
+mul 0
+funl 0
+orl 0
+p1 0
+subst {l0#1} $d
+subst {l0#1} $s
+backlink 1 0 {0 0} {}

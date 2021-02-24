@@ -1,0 +1,6 @@
+init {} {(n @f : (P -> P) -> P. \ @g : P -> P. @g (@f @g)) (n @x : P -> P. \ @a : P. @a)} {}
+nur 0
+funr 0
+nur 0
+funr 0
+backlink 1 0 {} {0 0}

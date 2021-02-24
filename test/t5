@@ -1,0 +1,19 @@
+init {m @x : P. @x, m @x : P. @x, m @x : P. @x, m @x : P. @x, m @x : P. @x, m @x : P. @x} {} {}
+mul 0
+cut {m @x : P. @x} {}
+wkl 6
+backlink 1 0 {0 0, 1 2, 2 1, 3 3, 4 4, 5 5} {}
+wkr 0
+cut {m @x : P. @x} {}
+wkl 6
+backlink 1 0 {0 0, 1 1, 2 3, 3 2, 4 4, 5 5} {}
+wkr 1
+cut {m @x : P. @x} {}
+wkl 6
+backlink 1 0 {0 0, 1 1, 2 2, 3 4, 4 3, 5 5} {}
+wkr 2
+cut {m @x : P. @x} {}
+wkl 6
+backlink 1 0 {0 0, 1 1, 2 2, 3 3, 4 5, 5 4} {}
+wkr 3
+backlink 1 0 {0 0, 1 5, 2 2, 3 3, 4 4, 5 1} {}
